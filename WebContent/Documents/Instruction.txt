@@ -1,0 +1,31 @@
+----------------------------------------------------------------
+
+Library Management System - V2
+
+----------------------------------------------------------------
+
+Description:-
+
+This is a guide on how to run the website and the steps to be performed before hosting this website.
+
+----------------------------------------------------------------
+
+Steps:-
+
+1. Install MySQL 8.0
+2. Install Apache Tomcat 9 Server
+3. Install Eclipse
+4. Configure Eclipse with the Tomcat Server and MySQL's JDBC Libraries
+5. Import the Project
+6. Change the values in Params File with respective Database values
+7. Run the SQL File found in WebContent -> MySQL Files
+	-> Run MySQL
+	-> Login to MySQL
+	-> Use the commands :- 
+		mysql> source "Path-to-Project"/WebContent/MySQL/Library.sql;
+		mysql> source "Path-to-Project"/WebContent/MySQL/LibrarianData.sql;
+8. Change the location of files in web.xml
+
+----------------------------------------------------------------
+
+Enjoy the Website
